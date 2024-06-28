@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="JB_AdminMenu::adminmenu_manage" title="Admin Menu" translate="title" module="JB_AdminMenu" sortOrder="11" resource="JB_AdminMenu::adminmenu_manage" />
+
+		<add id="JB_AdminMenu::adminmenu_manage_items1" title="Manage Admin Menu 1" module="JB_AdminMenu" sortOrder="12" parent="JB_AdminMenu::adminmenu_manage" action="admin/dashboard/index/" resource="JB_AdminMenu::adminmenu_manage_items1"/>
+
+		<add id="JB_AdminMenu::adminmenu_manage_items2" title="Manage Admin Menu 2" module="JB_AdminMenu" sortOrder="13" parent="JB_AdminMenu::adminmenu_manage" action="admin/dashboard/index/" resource="JB_AdminMenu::adminmenu_manage_items2"/>
+
+		<add id="JB_AdminMenu::adminmenu_manage_items3" title="Manage Admin Menu 3" module="JB_AdminMenu" sortOrder="13" parent="JB_AdminMenu::adminmenu_manage" action="admin/dashboard/index/" resource="JB_AdminMenu::adminmenu_manage_items3"/>
+    </menu>
+</config>
